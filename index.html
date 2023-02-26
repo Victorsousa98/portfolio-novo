@@ -6,49 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victor Sousa</title>
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-	<link rel="stylesheet" href="./assets/css/menu-navegação.css">
+	<!-- BASE -->
+    <link rel="stylesheet" href="./assents/css/normalize.css">
+    <link rel="stylesheet" href="./assents/css/reset.css">
+    <link rel="stylesheet" href="./assents/css/base.css">
+
+	<!-- CABECALHO -->
+	<link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+	<link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-menu-lista.css">
+
+	<!-- DESCRIÇÃO -->
+	<link rel="stylesheet" href="./assets/css/sobre-mim/descricao.css">
+	<link rel="stylesheet" href="./assets/css/sobre-mim/descricao-imagem.css">
 
 
 </head>
 <body>
-    <header>
-		<h1>Meu Portfólio</h1>
-
-		<nav class="menu">
-			<ul>
-			  <li><a href="#">Início</a></li>
-			  <li><a href="#">Sobre</a></li>
-			  <li><a href="#">Projetos</a></li>
-			  <li><a href="#">Contato</a></li>
+    <header class="cabecalho">
+		<h1 class="cabecalho__logo"><img src="./assets/img/Victor.svg" alt="Logo Victor" title="Logo Victor"></h1>
+		<nav class="cabecalho__menu">
+			<ul class="cabecalho__menu__lista">
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href="#">
+						<img src="./assets/icons/whatsapp.svg" alt="link do whatsapp" title="link para whatsapp"></a>
+				</li>
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href="#">
+						<img src="./assets/icons/github-2.svg" alt="link do github" title="link para github"></a>
+				</li>
+			  	<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href="#">
+						<img src="./assets/icons/linkedin.svg" alt="link do linkedin" title="link para linkedin"></a>
+				</li>
 			</ul>
 		  </nav>		  
-	</header>
+	</header> 
+
 	<main>
-		<section>
-			<h2>Sobre Mim</h2>
-			<p>Texto sobre mim e minhas habilidades e competências pessoais.</p>
+		<section class="descricao"> 
+			<div class="descricao__sobre">
+				<h2 class="descricao__sobre__titulo">Olá! Eu sou Desenvolvedor Front end.</h2>			
+				<p class="descricao__sobre__texto">
+					Me chamo João Victor e sou estudante de Engenharia de 
+					Software com foco em front end e estou em busca de uma oportunidade
+					para iniciar minha carreira nessa área. 
+				</p>
+
+				<a class="descricao__sobre__link" href="#">Download CV <img class="descricao__sobre__link__icone" src="./assets/icons/Download.svg" alt="icone de download" title="icone de download"></a>
+			</div>
+
+			<img class="descricao__imagem" src="./assets/img/foto.png" alt="foto de victor" title="foto de victor">		
 		</section>
-		<section>
-			<h2>Projetos</h2>
-			<ul>
-				<li><a href="#">Projeto 1</a></li>
-				<li><a href="#">Projeto 2</a></li>
-				<li><a href="#">Projeto 3</a></li>
-			</ul>
-		</section>
-		<section>
-			<h2>Habilidades Técnicas</h2>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-				<li>Outras linguagens e tecnologias</li>
-			</ul>
-		</section>
+	
 	</main>
 	<footer>
-		<p>Contato: meuemail@exemplo.com</p>
+	
 	</footer>
 </body>
 </html>

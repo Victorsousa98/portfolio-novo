@@ -1,0 +1,8 @@
+
+.cabecalho__menu__lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+
+}
