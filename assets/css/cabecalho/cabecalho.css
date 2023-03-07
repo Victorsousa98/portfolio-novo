@@ -1,10 +1,42 @@
-
-
-
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
 }
 
+.cabecalho .cabecalho__menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho__logo img{
+    width: 130px;
+}
+
+
+.cabecalho .cabecalho__menu ul li {
+    padding: 10px;
+    list-style: none;
+
+}
+
+.cabecalho .cabecalho__menu ul li:last-child {
+    padding-right: 0;
+
+}
+
+
+
+.cabecalho .cabecalho__menu .menu__icone{
+    width: 30px;
+    padding: 5px;
+}
+
+.cabecalho .cabecalho__menu .menu__icone:last-child{
+    padding-right: 0;
+}
+
+/* .download-cv img {
+    width: 20px;
+} */

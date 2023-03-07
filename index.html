@@ -6,61 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victor Sousa</title>
 
+
 	<!-- BASE -->
-    <link rel="stylesheet" href="./assents/css/normalize.css">
-    <link rel="stylesheet" href="./assents/css/reset.css">
-    <link rel="stylesheet" href="./assents/css/base.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/normalize.css">
+	<link rel="stylesheet" href="./assets/css/base.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 	<!-- CABECALHO -->
 	<link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
-	<link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-menu-lista.css">
 
-	<!-- DESCRIÇÃO -->
-	<link rel="stylesheet" href="./assets/css/sobre-mim/descricao.css">
-	<link rel="stylesheet" href="./assets/css/sobre-mim/descricao-imagem.css">
+	<!-- APRESENTAÇÃO -->
+	<link rel="stylesheet" href="./assets/css/apresentacao/apresentacao.css">
+	<link rel="stylesheet" href="./assets/css/apresentacao/apresentacao-sobre.css">
+
 
 
 </head>
 <body>
     <header class="cabecalho">
-		<h1 class="cabecalho__logo"><img src="./assets/img/Victor.svg" alt="Logo Victor" title="Logo Victor"></h1>
+		<a href="#"><h1 class="cabecalho__logo"><img src="./assets/img/Victor.svg" alt="Logo Victor" title="Logo Victor"></h1></a>
 		<nav class="cabecalho__menu">
-			<ul class="cabecalho__menu__lista">
-				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href="#">
-						<img src="./assets/icons/whatsapp.svg" alt="link do whatsapp" title="link para whatsapp"></a>
+			<ul>
+				<li>
+					<a class="menu__link" href="#">
+						<img class="menu__icone" src="./assets/icons/whatsapp.svg" alt="link do whatsapp" title="link para whatsapp">
+					</a>
 				</li>
-				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href="#">
-						<img src="./assets/icons/github-2.svg" alt="link do github" title="link para github"></a>
+				<li>
+					<a class="menu__link" href="#">
+						<img class="menu__icone" src="./assets/icons/github-2.svg" alt="link do github" title="link para github">
+					</a>
 				</li>
-			  	<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href="#">
-						<img src="./assets/icons/linkedin.svg" alt="link do linkedin" title="link para linkedin"></a>
+				<li>
+					<a class="menu__link" href="#">
+						<img class="menu__icone" src="./assets/icons/linkedin.svg" alt="link do linkedin" title="link para linkedin">
+					</a>
+				</li>
+				
+				<li>
+					<a class="download-cv " href="#"><img class="menu__icone" src="./assets/icons/Download cv.svg" alt="link para currículo" title="link para currículo"></a>
 				</li>
 			</ul>
-		  </nav>		  
+		</nav>		  
 	</header> 
 
 	<main>
-		<section class="descricao"> 
-			<div class="descricao__sobre">
-				<h2 class="descricao__sobre__titulo">Olá! Eu sou Desenvolvedor Front end.</h2>			
-				<p class="descricao__sobre__texto">
-					Me chamo João Victor e sou estudante de Engenharia de 
-					Software com foco em front end e estou em busca de uma oportunidade
+		<section class="apresentacao"> 
+			<div class="apresentacao__sobre">
+				<h2 >Olá! Eu sou Desenvolvedor Front end<span class="ponto">.</span></h2>			
+				<p >
+					Me chamo João Victor e sou estudante de <strong>Engenharia de 
+						Software</strong> com foco em front end e estou em busca de uma oportunidade
 					para iniciar minha carreira nessa área. 
 				</p>
 
-				<a class="descricao__sobre__link" href="#">Download CV <img class="descricao__sobre__link__icone" src="./assets/icons/Download.svg" alt="icone de download" title="icone de download"></a>
 			</div>
-
-			<img class="descricao__imagem" src="./assets/img/foto.png" alt="foto de victor" title="foto de victor">		
+ 
+			<img class="foto" src="./assets/img/foto.png" alt="foto de victor" title="foto de victor">		
 		</section>
 	
 	</main>
 	<footer>
-	
+	  
 	</footer>
 </body>
 </html>

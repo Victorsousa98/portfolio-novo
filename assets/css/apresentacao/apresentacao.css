@@ -1,0 +1,17 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.apresentacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    gap: 100px;
+    padding-top: 40px;
+}
+
+.apresentacao .foto {
+    width: 450px;
+    justify-self: end;
+
+}
