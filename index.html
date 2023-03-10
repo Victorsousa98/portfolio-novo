@@ -22,10 +22,13 @@
 	<link rel="stylesheet" href="./assets/css/apresentacao/apresentacao.css">
 	<link rel="stylesheet" href="./assets/css/apresentacao/apresentacao-sobre.css">
 
+	<!-- MODAL -->
+	<link rel="stylesheet" href="./assets/css/modal/modal.css">
+
 
 
 </head>
-<body>
+<body >
     <header class="cabecalho">
 		<a href="#"><h1 class="cabecalho__logo"><img src="./assets/img/Victor.svg" alt="Logo Victor" title="Logo Victor"></h1></a>
 		<nav class="cabecalho__menu">
@@ -70,7 +73,17 @@
 	
 	</main>
 	<footer>
-	  
+		
 	</footer>
+		<div class="modal" id="modal">
+			<div class="modal-content">
+			<h2>Aviso</h2>
+			<p>Ainda estou trabalhando neste projeto</p>
+
+			<button class="modal-btn" onclick="fecharModal()">Fechar</button>
+			</div>
+		</div>
+
 </body>
+<script src="./js/modal.js"></script>
 </html>
