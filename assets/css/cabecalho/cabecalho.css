@@ -17,10 +17,16 @@
 .cabecalho .cabecalho__menu ul li {
   padding: 10px;
   list-style: none;
+  margin-top: 5px;
+  transition: 0.2s;
 }
 
 .cabecalho .cabecalho__menu ul li:last-child {
   padding-right: 0;
+}
+
+.cabecalho .cabecalho__menu ul li:hover {
+  margin-top: 0px;
 }
 
 .cabecalho .cabecalho__menu .menu__icone {

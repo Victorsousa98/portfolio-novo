@@ -1,5 +1,6 @@
 body {
   font-family: "Fira Sans", sans-serif;
+  
 }
 
 .apresentacao__foto-media650 {
@@ -7,6 +8,7 @@ body {
 }
 
 .apresentacao {
+  border-radius: 4px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: start;
@@ -81,16 +83,14 @@ body {
   }
 }
 
-
 @media (max-width: 425px) {
-    .apresentacao__foto-media650 {
-        width: 125px;
-      }
+  .apresentacao__foto-media650 {
+    width: 125px;
+  }
 }
 
-
 @media (max-width: 380px) {
-    .apresentacao__media650{
-        flex-direction: column;
-    }
+  .apresentacao__media650 {
+    flex-direction: column;
+  }
 }
