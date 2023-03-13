@@ -1,6 +1,5 @@
 body {
   font-family: "Fira Sans", sans-serif;
-  
 }
 
 .apresentacao__foto-media650 {
@@ -13,7 +12,7 @@ body {
   grid-template-columns: 1fr 1fr;
   justify-items: start;
   gap: 100px;
-  padding-top: 40px;
+  padding: 20px 40px;
 }
 
 .apresentacao .foto {

@@ -1,12 +1,13 @@
 .projetos {
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 0 40px;
 }
 
 .projetos h2 {
   font-weight: 300;
   font-size: 2rem;
-  color: #7a7a7a;
+  color: var(--cinza8);
   position: relative;
 }
 
@@ -17,7 +18,7 @@
   height: 25px;
   top: 5px;
   left: -3px;
-  background-color: #87e816;
+  background-color: var(--cor-primaria);
 }
 
 .projetos__grid {
@@ -25,49 +26,53 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
   margin-top: 20px;
-  color: #fff;
+  color: var(--cinza1);
 }
 
 .projetos__grid a {
   display: inline-block;
-  color: #fff;
+  color: var(--cinza1);
   text-decoration: none;
 }
 
 .projetos__item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: auto;
   height: 200px;
-  background-color: #292929;
+  background-color: var(--cinza12);
   padding: 20px;
   border-radius: 4px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--light-shadow);
   margin-top: 5px;
   transition: 0.2s;
 }
 
 .projetos__item:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--dark-shadow);
   margin-top: 0px;
 }
 
 .projetos__item > p {
-  color: #a3a3a3;
+  color: var(--cinza6);
+  margin: 0;
 }
 
 .projetos__ferramentas {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 10px;
 }
 
 .projetos__ferramentas p {
   border-radius: 4px;
-  color: #7a7a7a;
+  color: var(--cinza8);
   font-weight: 700;
   position: relative;
+  margin: 0;
 }
 
 .projetos__ferramentas p::after {
@@ -77,14 +82,10 @@
   position: absolute;
   top: 20px;
   right: 5px;
-  background-color: #87e816;
+  background-color: var(--cor-primaria);
 }
 
 @media (max-width: 1050px) {
-  .projetos {
-    padding: 40px;
-  }
-
   .projetos__grid {
     gap: 20px;
   }
@@ -96,34 +97,17 @@
   }
 }
 
-
 @media (max-width: 750px) {
   .projetos__grid {
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+  }
+  .projetos {
+    margin-top: 0px;
   }
 }
 
 @media (max-width: 550px) {
   .projetos__grid {
-    grid-template-columns: 1fr ;
-  }
-}
-
-@media (max-width: 510px) {
-  .apresentacao__sobre h1 {
-    font-size: 1.75rem;
-  }
-}
-
-@media (max-width: 425px) {
-  .apresentacao__sobre h1 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 380px) {
-  .apresentacao__sobre h1 {
-    font-size: 2.25rem;
-    margin-bottom: 0px;
+    grid-template-columns: 1fr;
   }
 }

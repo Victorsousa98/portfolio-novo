@@ -14,15 +14,15 @@
 .apresentacao__sobre p {
   font-size: 19px;
   padding-top: 20px;
-  color: #525252;
+  color: var(--cinza10);
 }
 
 .apresentacao__sobre p strong {
-  color: #000000;
+  color: var(--cinza13);
 }
 
 .ponto {
-  color: #87e816;
+  color: var(--cor-primaria);
 }
 
 .apresentacao__sobre a span img {
@@ -30,12 +30,12 @@
   margin: 0;
   padding: 0;
   padding-left: 5px;
-  color: #3d3d3d;
+  color: var(--cinza11);
 }
 
 .apresentacao__sobre a {
   text-decoration: none;
-  color: #cccccc;
+  color: var(--cinza4);
   font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
