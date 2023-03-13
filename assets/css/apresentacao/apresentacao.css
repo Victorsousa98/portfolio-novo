@@ -82,13 +82,12 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
   .apresentacao__foto-media650 {
-    width: 125px;
+    width: 150px;
+    align-self: center;
   }
-}
 
-@media (max-width: 380px) {
   .apresentacao__media650 {
     flex-direction: column;
   }
