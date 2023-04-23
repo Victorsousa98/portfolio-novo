@@ -14,11 +14,18 @@
 }
 
 .introducao-apresentacao a {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 32px;
   width: 140px;
   padding: 10px 20px;
   border-radius: 5px;
   background-color: var(--cor-11);
+}
+
+.introducao-apresentacao a:hover img {
+  transform: translateX(20px);
+  transition: all 0.1s linear;
 }
 
 .banner {
@@ -82,7 +89,12 @@
   content: "";
   top: 30px;
   position: absolute;
-  width: 50%;
+  width: 40px;
   height: 2px;
   background-color: var(--cor-p1-v);
+  transition: all 0.2s linear;
+}
+
+.introducao-especialidade a:hover::before {
+  width: 100px;
 }

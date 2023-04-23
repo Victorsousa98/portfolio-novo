@@ -5,6 +5,11 @@
   padding: 0px 20px;
 }
 
+.menu ul li:hover img {
+  transform: scale(1.1);
+  transition: all 0.1s linear;
+}
+
 .menu-lista ul li a img {
   width: 32px;
 }

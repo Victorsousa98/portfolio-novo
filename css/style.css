@@ -2,3 +2,7 @@
 
 @import url("./menu/menu.css");
 @import url("./introducao/introducao.css");
+
+footer p {
+  font-size: 8px;
+}
