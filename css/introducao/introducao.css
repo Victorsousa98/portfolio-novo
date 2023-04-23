@@ -23,6 +23,9 @@
   .introducao {
     display: block;
   }
+  .introducao-bg {
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 600px) {

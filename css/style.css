@@ -9,8 +9,7 @@
 @import url("./introducao/introducao-apresentacao.css");
 @import url("./introducao/introducao-especialidade.css");
 
-
-
 footer p {
   font-size: 8px;
+  margin-top: 12px;
 }
