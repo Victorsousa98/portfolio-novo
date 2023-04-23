@@ -1,0 +1,88 @@
+.introducao {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  position: relative;
+}
+.introducao-apresentacao h1 {
+  margin-bottom: 16px;
+}
+
+.introducao-apresentacao > span {
+  display: inline-block;
+  margin-bottom: 80px;
+}
+
+.introducao-apresentacao a {
+  display: block;
+  width: 140px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: var(--cor-11);
+}
+
+.banner {
+  position: absolute;
+  width: 560px;
+  top: calc(50% + 40px);
+  left: calc(50% - 80px);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.introducao-especialidade {
+  position: relative;
+}
+
+.introducao-especialidade > span {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  top: -50px;
+}
+
+.introducao-especialidade h2 {
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.introducao-especialidade > span::before {
+  content: "";
+  width: 20px;
+  height: 8px;
+  display: block;
+  background-color: var(--cor-p3-r);
+}
+
+.introducao-especialidade p {
+  position: relative;
+}
+.introducao-especialidade .skills::after {
+  content: "";
+  background: url("../../assets/icons/separador.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 2px;
+  display: block;
+  margin: 28px 0;
+}
+
+.introducao-especialidade a {
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.introducao-especialidade a::after {
+  content: url("../../assets/icons/curriculo-icon.svg");
+}
+.introducao-especialidade a::before {
+  content: "";
+  top: 30px;
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: var(--cor-p1-v);
+}

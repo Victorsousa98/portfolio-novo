@@ -1,0 +1,140 @@
+:root {
+  --cor-w: #ffffff;
+  --cor-2: #f7f7f7;
+  --cor-3: #ededed;
+  --cor-4: #dedede;
+  --cor-5: #cccccc;
+  --cor-6: #b2b2b2;
+  --cor-7: #9c9c9c;
+  --cor-8: #717171;
+  --cor-9: #595959;
+  --cor-10: #404040;
+  --cor-11: #2e2e2e;
+  --cor-12: #111111;
+  --cor-13: #000000;
+
+  --cor-p1-v: #70da1c;
+  --cor-p2-v: #8ded41;
+  --cor-p3-v: #b7ff7e;
+  --cor-p4-v: #439403;
+  --cor-p5-v: #214a00;
+
+  --cor-p0-r: #e7b2ff;
+  --cor-p1-r: #b629f8;
+  --cor-p2-r: #9935e6;
+  --cor-p3-r: #4a0084;
+  --cor-p4-r: #1e0036;
+
+  --font-serif: "Noto Serif", serif;
+  --font-sans-1: "Poppins", sans-serif;
+  --font-sans-2: "Noto Sans", sans-serif;
+
+  --transition: all 0.2s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  --max-width: 1200px;
+}
+body {
+  font-family: var(--font-serif);
+  font-family: var(--font-sans-1);
+  font-family: var(--font-sans-2);
+}
+
+.font-3-m {
+  font: 500 1.125rem/1.2 var(--font-sans-2);
+  letter-spacing: 0.05em;
+}
+
+.font-3-p {
+  font: 400 1rem/1.5 var(--font-sans-2);
+  letter-spacing: 0.05em;
+}
+
+.font-1-gg {
+  font: 700 3rem/1.25 var(--font-serif);
+}
+
+.font-2-g {
+  font: 500 1.75rem/1.12 var(--font-sans-1);
+}
+.font-2-m {
+  font: 500 1.25rem/1.2 var(--font-sans-1);
+}
+.font-2-p {
+  font: 400 1rem/1.5 var(--font-sans-1);
+}
+
+.cor-w {
+  color: var(--cor-w);
+}
+.cor-2 {
+  color: var(--cor-2);
+}
+.cor-3 {
+  color: var(--cor-3);
+}
+.cor-4 {
+  color: var(--cor-4);
+}
+.cor-5 {
+  color: var(--cor-5);
+}
+.cor-6 {
+  color: var(--cor-6);
+}
+.cor-7 {
+  color: var(--cor-7);
+}
+.cor-8 {
+  color: var(--cor-8);
+}
+.cor-9 {
+  color: var(--cor-9);
+}
+.cor-10 {
+  color: var(--cor-10);
+}
+.cor-11 {
+  color: var(--cor-11);
+}
+.cor-12 {
+  color: var(--cor-12);
+}
+.cor-13 {
+  color: var(--cor-13);
+}
+
+.cor-p1-v {
+  color: var(--cor-p1-v);
+}
+.cor-p2-v {
+  color: var(--cor-p2-v);
+}
+.cor-p3-v {
+  color: var(--cor-p3-v);
+}
+.cor-p4-v {
+  color: var(--cor-p4-v);
+}
+.cor-p5-v {
+  color: var(--cor-p5-v);
+}
+
+.cor-p0-r {
+  color: var(--cor-p0-r);
+}
+
+.cor-p1-r {
+  color: var(--cor-p1-r);
+}
+.cor-p2-r {
+  color: var(--cor-p2-r);
+}
+.cor-p3-r {
+  color: var(--cor-p3-r);
+}
+.cor-p4-r {
+  color: var(--cor-p4-r);
+}

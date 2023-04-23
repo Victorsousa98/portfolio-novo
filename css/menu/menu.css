@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.menu-lista ul li a img {
+  width: 32px;
+}
+
+.menu-lista ul {
+  display: flex;
+  gap: 40px;
+}
