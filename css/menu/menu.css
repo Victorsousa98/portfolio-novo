@@ -18,3 +18,18 @@
   display: flex;
   gap: 40px;
 }
+
+@media (max-width: 1100px) {
+  .menu a img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu-lista ul li a img {
+    width: 24px;
+  }
+  .menu-lista ul {
+    gap: 20px;
+  }
+}

@@ -1,7 +1,15 @@
 @import url("./modal/modal.css");
 
+@import url("./componentes/cores.css");
+@import url("./componentes/tipografia.css");
+
 @import url("./menu/menu.css");
 @import url("./introducao/introducao.css");
+@import url("./introducao/introducao-banner.css");
+@import url("./introducao/introducao-apresentacao.css");
+@import url("./introducao/introducao-especialidade.css");
+
+
 
 footer p {
   font-size: 8px;
