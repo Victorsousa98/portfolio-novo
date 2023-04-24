@@ -10,7 +10,7 @@
 }
 
 .idioma-icon {
-  background-color: var(--cor-9);
+  background-color: var(--cor-7);
   transition: all 0.2s linear;
 }
 
@@ -20,7 +20,7 @@
   align-items: center;
   gap: 8px;
   width: auto;
-  padding: 4px 15px 4px 2px;
+  padding: 4px 15px 4px 8px;
   bottom: 21px;
   right: 30px;
   border-radius: 4px;
@@ -40,9 +40,10 @@
 
 .idioma:hover span,
 .mudar-idiomas:hover span {
-  padding: 4px 20px 4px 2px;
+  padding: 8px 20px 8px 12px;
   opacity: 1;
 }
+
 .idioma:hover span::after {
   width: 40px;
 }
