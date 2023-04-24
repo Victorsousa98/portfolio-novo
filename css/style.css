@@ -2,6 +2,7 @@
 
 @import url("./componentes/cores.css");
 @import url("./componentes/tipografia.css");
+@import url("./componentes/idioma.css");
 
 @import url("./menu/menu.css");
 @import url("./introducao/introducao.css");

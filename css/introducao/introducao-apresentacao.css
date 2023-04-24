@@ -14,7 +14,10 @@
   width: 140px;
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: var(--cor-11);
+  background: var(--cor-11);
+}
+.introducao-apresentacao a.pt-br {
+  width: 180px;
 }
 
 .introducao-apresentacao a:hover img {
@@ -27,6 +30,9 @@
     gap: 20px;
     width: 120px;
     padding: 8px 16px;
+  }
+  .introducao-apresentacao a.pt-br {
+    width: 160px;
   }
 
   .introducao-apresentacao a:hover img {
@@ -46,6 +52,10 @@
     gap: 16px;
     width: 100px;
     padding: 4px 8px;
+  }
+  .introducao-apresentacao a.pt-br {
+    width: 128px;
+    gap: 12px;
   }
   .introducao-apresentacao a img {
     width: 20px;

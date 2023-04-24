@@ -1,0 +1,71 @@
+.idioma-icon,
+.idioma {
+  display: inline-block;
+  overflow: hidden;
+  position: fixed;
+  border-radius: 50%;
+  width: 32px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.idioma-icon {
+  background-color: var(--cor-9);
+  transition: all 0.2s linear;
+}
+
+.idioma {
+  display: flex;
+  height: 22px;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  padding: 4px 15px 4px 2px;
+  bottom: 21px;
+  right: 30px;
+  border-radius: 4px;
+}
+.idioma span::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #ffffff;
+  transition: all 0.1s linear;
+}
+.idioma span {
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.idioma:hover span,
+.mudar-idiomas:hover span {
+  padding: 4px 20px 4px 2px;
+  opacity: 1;
+}
+.idioma:hover span::after {
+  width: 40px;
+}
+.idioma-icon:hover {
+  background-color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .idioma-icon,
+  .idioma {
+    width: calc(32px - 10px);
+  }
+
+  .idioma {
+    height: calc(22px - 10px);
+    width: auto;
+  }
+  .idioma span::after {
+    width: 30px;
+    height: 6px;
+  }
+
+  .idioma:hover span::after {
+    width: 40px;
+  }
+}
