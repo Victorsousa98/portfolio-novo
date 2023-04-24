@@ -22,7 +22,7 @@
   width: auto;
   padding: 4px 15px 4px 8px;
   bottom: 21px;
-  right: 30px;
+  right: -300px;
   border-radius: 4px;
 }
 .idioma span::after {
@@ -42,6 +42,10 @@
 .mudar-idiomas:hover span {
   padding: 8px 20px 8px 12px;
   opacity: 1;
+}
+
+.mudar-idiomas:hover .idioma {
+  right: 30px;
 }
 
 .idioma:hover span::after {
