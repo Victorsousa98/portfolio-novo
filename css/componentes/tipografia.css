@@ -1,83 +1,101 @@
 :root {
-  --font-serif: "Noto Serif", serif;
-  --font-sans-1: "Poppins", sans-serif;
-  --font-sans-2: "Noto Sans", sans-serif;
+  --noto-serif: "Noto Serif", serif;
+  --poppins: "Poppins", sans-serif;
+  --noto-sans: "Noto Sans", sans-serif;
 
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  --dark-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 body {
-  font-family: var(--font-serif);
-  font-family: var(--font-sans-1);
-  font-family: var(--font-sans-2);
+  font-family: var(--noto-serif);
+  font-family: var(--poppins);
+  font-family: var(--noto-sans);
+}
+/* POPPINS */
+.poppins-g {
+  font: 500 1.75rem/1.12 var(--poppins);
+}
+.poppins-m {
+  font: 500 1.25rem/1.2 var(--poppins);
+}
+.poppins-m-up {
+  font: 500 1.25rem/1.2 var(--poppins);
+  text-transform: uppercase;
+}
+.poppins-p {
+  font: 400 1rem/1.5 var(--poppins);
 }
 
-.font-3-m {
-  font: 500 1.125rem/1.2 var(--font-sans-2);
+/* NOTO SANS */
+.noto-sans-p {
+  font: 400 1rem/1.5 var(--noto-sans);
   letter-spacing: 0.05em;
 }
 
-.font-3-p {
-  font: 400 1rem/1.5 var(--font-sans-2);
+.noto-sans-p-bold {
+  font: 700 1rem/1.5 var(--noto-sans);
   letter-spacing: 0.05em;
 }
 
-.font-1-gg {
-  font: 700 3rem/1.25 var(--font-serif);
+.noto-sans-m {
+  font: 500 1.125rem/1.2 var(--noto-sans);
+  letter-spacing: 0.05em;
 }
 
-.font-2-g {
-  font: 500 1.75rem/1.12 var(--font-sans-1);
+/* NOTO SERIF */
+.noto-serif-m {
+  font: 500 3rem/1.25 var(--noto-serif);
 }
-.font-2-m {
-  font: 500 1.25rem/1.2 var(--font-sans-1);
+
+.noto-serif-g {
+  font: 700 3rem/1.25 var(--noto-serif);
 }
-.font-2-p {
-  font: 400 1rem/1.5 var(--font-sans-1);
+.noto-serif-gg {
+  font: 600 3.75rem var(--noto-serif);
 }
 
 @media (max-width: 1100px) {
-  .font-1-gg {
-    font: 700 2.5rem/1.25 var(--font-serif);
+  .noto-serif-g {
+    font: 700 2.5rem/1.25 var(--noto-serif);
   }
-  .font-2-m {
-    font: 500 1.125rem/1.2 var(--font-sans-1);
+  .poppins-m {
+    font: 500 1.125rem/1.2 var(--poppins);
     letter-spacing: 1.2px;
   }
 
-  .font-2-g {
-    font: 500 1.5rem/1.12 var(--font-sans-1);
+  .poppins-g {
+    font: 500 1.5rem/1.12 var(--poppins);
   }
 
-  .font-3-m {
-    font: 500 1rem/1.2 var(--font-sans-2);
+  .noto-sans-m {
+    font: 500 1rem/1.2 var(--noto-sans);
     letter-spacing: 0.05em;
   }
 }
 
 @media (max-width: 900px) {
-  .font-1-gg {
-    font: 700 2rem/1.25 var(--font-serif);
+  .noto-serif-g {
+    font: 700 2rem/1.25 var(--noto-serif);
   }
-  .font-2-m {
-    font: 500 0.75rem /1.2 var(--font-sans-1);
+  .poppins-m {
+    font: 500 0.75rem /1.2 var(--poppins);
   }
-  .font-2-g {
-    font: 500 1.125rem/1.12 var(--font-sans-1);
+  .poppins-g {
+    font: 500 1.125rem/1.12 var(--poppins);
   }
-  .font-3-m {
-    font: 500 0.75rem/1.5 var(--font-sans-2);
+  .noto-sans-m {
+    font: 500 0.75rem/1.5 var(--noto-sans);
     letter-spacing: 0.05em;
   }
-  .font-3-p {
-    font: 500 0.75rem/1.5 var(--font-sans-2);
+  .noto-sans-p {
+    font: 500 0.75rem/1.5 var(--noto-sans);
     letter-spacing: 0.05em;
   }
 }
 
 @media (max-width: 800px) {
-  .font-1-gg {
-    font: 700 1.75rem/1.25 var(--font-serif);
+  .noto-serif-g {
+    font: 700 1.75rem/1.25 var(--noto-serif);
   }
 }
 

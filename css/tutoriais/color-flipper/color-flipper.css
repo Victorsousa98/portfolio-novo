@@ -1,0 +1,44 @@
+.color-flipper-body {
+  background-color: #111111;
+}
+
+.color-flipper-body header {
+  background-color: #000000;
+}
+.color-flipper-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.color-flipper {
+  background-color: var(--cor-w);
+  padding: 50px 100px;
+  border-radius: 5px;
+  text-align: center;
+  width: 600px;
+}
+
+.color-flipper h1 {
+  color: var(--cor-12);
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.color-flipper button {
+  background-color: var(--cor-w);
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  font-family: monospace;
+  font-weight: 600;
+  box-shadow: var(--dark-shadow);
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.color-flipper button:hover {
+  background-color: var(--cor-4);
+  color: var(--cor-12);
+}
