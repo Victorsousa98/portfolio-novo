@@ -108,9 +108,8 @@
     width: 100px;
     padding: 4px 8px;
   }
-  .introducao-apresentacao a.pt-br {
-    width: 128px;
-    gap: 12px;
+  .introducao-apresentacao .botao-hire {
+    width: 60px;
   }
   .introducao-apresentacao a img {
     width: 20px;

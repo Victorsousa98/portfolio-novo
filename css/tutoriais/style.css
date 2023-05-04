@@ -75,3 +75,33 @@
 .tutoriais-item:nth-child(even) ul {
   color: var(--cor-6);
 }
+
+.tutoriais-item-img {
+  position: relative;
+}
+
+.tutoriais-item-img {
+  display: grid;
+}
+
+.tutoriais-item-img img {
+  grid-area: 1/1;
+}
+
+.tutoriais-item-img svg {
+  grid-area: 1/1;
+  justify-self: end;
+  margin-right: 40px;
+  padding: 20px;
+  width: 32px;
+  opacity: 0.5;
+  color: var(--cor-5);
+  cursor: pointer;
+}
+
+.tutoriais-item-img svg:hover {
+  color: var(--cor-w);
+  opacity: 1;
+  transition: all 0.2s linear;
+  transform: scale(1.02);
+}
