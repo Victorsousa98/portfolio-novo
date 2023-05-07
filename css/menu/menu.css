@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.menu-lista ul li:first-child {
+#index .menu-lista ul li:first-child {
   padding: 10px 20px;
 }
 

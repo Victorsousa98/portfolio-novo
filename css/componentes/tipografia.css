@@ -71,6 +71,10 @@ body {
     font: 500 1rem/1.2 var(--noto-sans);
     letter-spacing: 0.05em;
   }
+
+  .noto-serif-m {
+    font: 500 2.25rem/1.25 var(--noto-serif);
+  }
 }
 
 @media (max-width: 900px) {
@@ -91,11 +95,19 @@ body {
     font: 500 0.75rem/1.5 var(--noto-sans);
     letter-spacing: 0.05em;
   }
+
+  .noto-sans-p-bold {
+    font: 700 0.75rem/1.5 var(--noto-sans);
+    letter-spacing: 0.05em;
+  }
 }
 
 @media (max-width: 800px) {
   .noto-serif-g {
     font: 700 1.75rem/1.25 var(--noto-serif);
+  }
+  .noto-serif-m {
+    font: 500 1.75rem/1.25 var(--noto-serif);
   }
 }
 
