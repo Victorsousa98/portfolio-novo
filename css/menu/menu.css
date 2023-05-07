@@ -23,10 +23,10 @@
   display: flex;
   align-items: center;
 }
-/* 
+
 .menu-lista ul li:first-child {
   padding: 10px 20px;
-} */
+}
 
 @media (max-width: 1100px) {
   .menu a img {
