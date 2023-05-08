@@ -1,0 +1,26 @@
+.introducao-pagina-interna {
+  background-color: var(--cor-12);
+  padding: 40px 0;
+}
+
+.titulo-pagina-interna > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.titulo-pagina-interna > span::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 12px;
+  background-color: var(--cor-p4-r);
+}
+
+.titulo-pagina-interna > h1 {
+  margin-bottom: 32px;
+}
+
+.titulo-pagina-interna > p {
+  max-width: 600px;
+}

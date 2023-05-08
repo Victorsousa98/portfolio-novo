@@ -1,0 +1,21 @@
+@import url("./titulo/titulo.css");
+
+.projetos-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projetos-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.projetos-item-img {
+  max-width: 300px;
+}
+
+.projetos-item-img img {
+  width: 100%;
+}

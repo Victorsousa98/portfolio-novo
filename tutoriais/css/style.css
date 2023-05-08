@@ -1,0 +1,93 @@
+@import url("./titulo/titulo.css");
+@import url('./filtro/filtro.css');
+@import url('./tutoriais-lista/tutoriais-lista.css');
+
+
+@media (max-width: 1095px) {
+  .tutoriais-item-img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .tutoriais-item-img img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tutoriais-filtro ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tutoriais-item-img img {
+    width: 300px;
+  }
+
+  .tutoriais-item {
+    gap: 20px;
+  }
+
+  .tutoriais-item p {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .tutoriais-item-img img {
+    width: 275px;
+  }
+
+  .tutoriais-vantagens {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .botao-acessar {
+    padding: 12px 24px;
+    border-radius: 5px;
+    justify-self: start;
+    align-self: end;
+  }
+
+  .botao-acessar:hover {
+    padding: 12px 24px;
+    transition: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .tutoriais-item:nth-child(odd) {
+    background-image: linear-gradient(to right, #ffffff 0, #111111 0);
+  }
+  .tutoriais-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .tutoriais-item-img img {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .tutorial-descricao-container {
+    margin: 0 20px;
+  }
+
+  .tutoriais-item h2 {
+    margin-top: 8px;
+  }
+
+  .tutoriais-vantagens {
+    grid-template-columns: 2fr 1fr;
+    gap: 0px;
+  }
+
+  .botao-acessar {
+    padding: 12px 24px;
+    justify-self: end;
+    align-self: end;
+  }
+}
