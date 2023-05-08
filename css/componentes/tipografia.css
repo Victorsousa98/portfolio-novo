@@ -108,7 +108,7 @@ body {
     text-transform: uppercase;
   }
   .noto-serif-gg {
-    font: 600 2.5rem var(--noto-serif);
+    font: 600 3rem/1 var(--noto-serif);
   }
   .noto-serif-g {
     font: 700 1.75rem/1.25 var(--noto-serif);
