@@ -1,21 +1,91 @@
 @import url("./titulo/titulo.css");
+@import url("./projetos-lista/projetos-lista.css");
 
-.projetos-lista {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
-  margin: 0 auto;
+@media (max-width: 1095px) {
+  .projetos-item-img img {
+    width: 100%;
+  }
 }
 
-.projetos-item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+@media (max-width: 900px) {
+  .projetos-item-img img {
+    width: 400px;
+  }
 }
 
-.projetos-item-img {
-  max-width: 300px;
+@media (max-width: 800px) {
+  .projetos-filtro ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .projetos-item-img img {
+    width: 300px;
+  }
+
+  .projetos-item {
+    gap: 20px;
+  }
+
+  .projetos-item p {
+    margin-bottom: 12px;
+  }
 }
 
-.projetos-item-img img {
-  width: 100%;
+@media (max-width: 650px) {
+  .projetos-item-img img {
+    width: 275px;
+  }
+
+  .projetos-vantagens {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .botao-acessar {
+    padding: 12px 24px;
+    border-radius: 5px;
+    justify-self: start;
+    align-self: end;
+  }
+
+  .botao-acessar:hover {
+    padding: 12px 24px;
+    transition: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .projetos-item:nth-child(even) {
+    background-image: linear-gradient(to right, #ffffff 0, #111111 0);
+  }
+  .projetos-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .projetos-item-img img {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .projeto-descricao-container {
+    margin: 0 20px;
+  }
+
+  .projetos-item h2 {
+    margin-top: 8px;
+  }
+
+  .projetos-vantagens {
+    grid-template-columns: 2fr 1fr;
+    gap: 0px;
+  }
+
+  .botao-acessar {
+    padding: 12px 24px;
+    justify-self: end;
+    align-self: end;
+  }
 }

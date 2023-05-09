@@ -43,6 +43,7 @@
   align-items: center;
   gap: 8px;
   position: relative;
+  max-width: max-content;
 }
 
 .introducao-especialidade a::after {

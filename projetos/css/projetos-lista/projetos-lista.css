@@ -1,0 +1,93 @@
+.projetos {
+  background-color: #ffffff;
+}
+
+.projetos-lista {
+  padding: 40px 0;
+}
+.projetos-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 0;
+  margin-bottom: 20px;
+  gap: 40px;
+}
+
+.projetos-item-img img {
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.projetos-item h2 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-right: 20px;
+}
+.projetos-item p {
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.projetos-vantagens {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.projetos-item ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+
+.botao-acessar {
+  background-color: var(--cor-p1-v);
+  padding: 16px 32px 16px 16px;
+  border-radius: 4px 0 0 4px;
+  justify-self: end;
+  align-self: end;
+}
+
+.botao-acessar:hover {
+  padding: 16px 60px 16px 16px;
+  transition: all 0.1s linear;
+}
+
+.projetos-item ul li img {
+  width: 24px;
+}
+
+.projetos-item:nth-child(even) {
+  background-image: linear-gradient(to right, #ffffff 30%, #111111 0);
+}
+
+.projetos-item:nth-child(even) h2 {
+  color: var(--cor-w);
+}
+
+.projetos-item:nth-child(even) p {
+  color: var(--cor-5);
+}
+
+.projetos-item:nth-child(even) ul {
+  color: var(--cor-6);
+}
+
+.projetos-item-img svg {
+  grid-area: 1/1;
+  justify-self: end;
+  margin-right: 40px;
+  padding: 20px;
+  width: 32px;
+  opacity: 0.5;
+  color: var(--cor-5);
+  cursor: pointer;
+}
+
+.projetos-item-img svg:hover {
+  color: var(--cor-w);
+  opacity: 1;
+  transition: all 0.2s linear;
+  transform: scale(1.02);
+}
