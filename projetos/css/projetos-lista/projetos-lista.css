@@ -37,8 +37,14 @@
 .projetos-item ul li {
   display: flex;
   align-items: center;
-  margin-bottom: 12px;
   gap: 12px;
+}
+.projetos-item ul li + li {
+  margin-top: 12px;
+}
+
+.projetos-item ul {
+  margin-bottom: 0;
 }
 
 .botao-acessar {
