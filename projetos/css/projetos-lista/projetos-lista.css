@@ -16,6 +16,7 @@
 .projetos-item-img img {
   border-radius: 5px;
   margin-left: 20px;
+  width: 600px;
 }
 
 .projetos-item h2 {
