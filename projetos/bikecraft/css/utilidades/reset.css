@@ -1,0 +1,40 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0 auto;
+  color: #111111;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 4px;
+}

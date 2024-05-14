@@ -1,0 +1,12 @@
+.cabecalho-bg {
+  background-color: var(--cor-12);
+}
+
+.cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}

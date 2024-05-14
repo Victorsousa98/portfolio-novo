@@ -1,0 +1,38 @@
+.tecnologia-vantagens {
+  display: flex;
+  gap: 40px;
+}
+
+.tecnologia-vantagens h3 {
+  padding-bottom: 8px;
+}
+
+.tecnologia-motor::before {
+  content: url("../../img/icones/eletrica.svg");
+  display: block;
+  padding-bottom: 8px;
+}
+
+.tecnologia-rastreador::before {
+  content: url("../../img/icones/rastreador.svg");
+  display: block;
+  padding-bottom: 8px;
+}
+
+@media (max-width: 950px) {
+  .tecnologia-vantagens {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .tecnologia-vantagens {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .tecnologia-vantagens {
+    flex-direction: column;
+  }
+}

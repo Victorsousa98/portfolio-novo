@@ -1,0 +1,45 @@
+.cabecalho-menu ul {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.cabecalho-menu ul li a {
+  color: var(--cor-0);
+  display: inline-block;
+  padding: 16px 0;
+  position: relative;
+}
+
+.cabecalho-menu ul li a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: var(--cor-0);
+  transition: 0.3s;
+  position: absolute;
+}
+
+.cabecalho-menu ul li a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .cabecalho-menu ul {
+    gap: 20px;
+  }
+
+  .cabecalho-menu ul li a {
+    background-color: var(--cor-11);
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .cabecalho-menu ul li a:hover {
+    background-color: var(--cor-10);
+  }
+
+  .cabecalho-menu ul li a::after {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+.seguros-vantagens {
+  background-color: var(--cor-11);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.seguros-vantagens h2 {
+  margin-bottom: 80px;
+}
+
+.vantagens-lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}
+
+.vantagens-lista li {
+  display: grid;
+  gap: 8px;
+}
+
+@media (max-width: 900px) {
+  .vantagens-lista {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .vantagens-lista {
+    grid-template-columns: 1fr;
+  }
+}

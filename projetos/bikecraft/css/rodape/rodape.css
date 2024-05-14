@@ -1,0 +1,79 @@
+.rodape-bg {
+  background-color: var(--cor-12);
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+  gap: 40px;
+}
+.rodape h2 {
+  padding-bottom: 20px;
+}
+
+.rodape a {
+  display: block;
+  padding-bottom: 12px;
+  max-width: max-content;
+}
+
+.rodape-meios a:last-child {
+  padding-bottom: 32px;
+}
+
+.rodape-endereco p {
+  padding-bottom: 12px;
+}
+.rodape-endereco p:last-child {
+  padding-bottom: 32px;
+}
+
+.rodape-redes {
+  display: flex;
+  gap: 20px;
+}
+
+.rodape-contato div {
+  position: relative;
+}
+
+.rodape-contato div + div::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  top: -16px;
+  background-color: var(--cor-11);
+  position: absolute;
+  max-width: 280px;
+}
+
+.copyright {
+  padding-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .rodape > img {
+    display: none;
+  }
+  .rodape {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .copyright {
+    padding-top: 40px;
+  }
+  .rodape-bg {
+    padding-bottom: 8px;
+  }
+}
+
+.rodape a:hover {
+  color: var(--cor-0);
+}
+@media (max-width: 600px) {
+  .rodape {
+    grid-template-columns: 1fr;
+  }
+}
